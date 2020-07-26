@@ -209,6 +209,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Server.aspx" />
     <Content Include="Service.asmx" />
     <Content Include="session_attributes.asmx" />
     <Content Include="Site.Master" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server.aspx.cs">
+      <DependentUpon>Server.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Server.aspx.designer.cs">
+      <DependentUpon>Server.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Server.cs" />
     <Compile Include="Service.asmx.cs">
       <DependentUpon>Service.asmx</DependentUpon>

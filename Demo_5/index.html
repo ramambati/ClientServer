@@ -60,7 +60,7 @@
                 debugger;
                 $.ajax({
                     type: "POST",
-                    url: "session_attributes.asmx/GetSession_id",
+                    url: '/Server.aspx/GetSession_id',
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (response) {
